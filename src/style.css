@@ -19,7 +19,7 @@ body {
   /* [TODOLABO]: maak gebruik van de --margin variabele */
   padding: calc((2rem * 2) + 2vw); /* [TODOLABO]: fyi, dit is een voorbeeld van reduced calc test: bekijk output in gebundelde CSS */
   /* [TODOLABO]: maak gebruik van de backgroundColor variabele */
-  background-color: #eaeae9;
+  background-color: red;
   /* [TODOLABO]: maak gebruik van de textColor variabele */
   color: #463636;
 }
