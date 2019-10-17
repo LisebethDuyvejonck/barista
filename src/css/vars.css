@@ -5,5 +5,8 @@
   --textColor: black;
   --buttoncolor: #a3f4dc;
   --margin: 2rem;
+  --fontSizeSmall: 12px;
+  --fontSizeNormal: 18px;
+  --fontSizeBig: 26px;
 
 }
