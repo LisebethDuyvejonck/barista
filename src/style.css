@@ -22,21 +22,17 @@ body {
   color: var(--textColor);
 }
 
-.h2-like {
+.title_mini {
   font-size: var(--fontSizeSmall);
+  text-transform: uppercase;
 }
 
-.h1-like {
-  font-size: var(--fontSizeBig);
+.emptystate {
+  margin: 0 auto;
 }
 
-strong {
-  font-weight: bold;
-
-  @nest p & {
-    /** [TODOLABO]: enkel om @nest  voorbeeld aan te halen, je hoeft niets aan te passen **/
-    color: darkorange;
-  }
+.visually-hidden {
+  display: none;
 }
 
 /** [TODOLABO]: maak gebruik van nieuwe media query syntax */
