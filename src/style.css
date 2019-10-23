@@ -35,6 +35,17 @@ body {
   display: none;
 }
 
+.footer {
+  background-color: var(--anotherBackgroundColor1);
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+}
+
+.footer_text {
+  color: white;
+}
+
 /** [TODOLABO]: maak gebruik van nieuwe media query syntax */
 @media screen and (width >= 500px) {
 
