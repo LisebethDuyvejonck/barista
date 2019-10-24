@@ -28,9 +28,17 @@ body {
 }
 
 .emptystate {
-  margin: 0 auto;
+  margin: 10rem;
   display: flex;
   flex-flow: column;
+}
+
+.remove {
+  background-color: var(--buttoncolor);
+}
+
+.total {
+  background-color: gainsboro;
 }
 
 .visually-hidden {
@@ -52,6 +60,10 @@ body {
 
 .footer_text {
   color: white;
+}
+
+.prices {
+  background-color: var(--anotherBackgroundColor);
 }
 
 /** [TODOLABO]: maak gebruik van nieuwe media query syntax */
