@@ -29,10 +29,18 @@ body {
 
 .emptystate {
   margin: 0 auto;
+  display: flex;
+  flex-flow: column;
 }
 
 .visually-hidden {
   display: none;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: var(--spacer);
 }
 
 .footer {
@@ -47,9 +55,13 @@ body {
 }
 
 /** [TODOLABO]: maak gebruik van nieuwe media query syntax */
-@media screen and (width >= 500px) {
+@media screen and (width >= 828px) {
 
-  h1 {
-    font-size: 6vw;
+  main {
+    display: flex;
+  }
+
+  .prices {
+    height: 509px;
   }
 }
