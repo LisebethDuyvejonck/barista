@@ -81,9 +81,10 @@ ES6Stuff();
   const createCoffees = data => {
     const $coffees = document.querySelector(`.prices__list`);
     data.coffees.forEach(coffee => {
-      const $coffee = createCoffee(coffee);
-      $coffees.appendChild($coffee);
-    });
+      if (coffee.plantbased === true) {
+        const $coffee = createCoffee(coffee);
+        $coffees.appendChild($coffee);
+      }});
   };
 
   const createCoffee = coffee => {

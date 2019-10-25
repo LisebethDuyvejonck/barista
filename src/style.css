@@ -66,9 +66,52 @@ body {
   background-color: var(--anotherBackgroundColor);
 }
 
-.price__button__wrapper {
+.price_button {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price_button_wrapper {
   display: flex;
   flex-flow: column;
+}
+
+.prices__list {
+  background-color: var(--anotherBackgroundColor);
+}
+
+.price__button {
+  display: flex;
+  padding: 1rem;
+}
+
+.price {
+  background-color: white;
+  width: 170px;
+  height: 63px;
+  margin: 2rem;
+  border-radius: 10px;
+  display: flex;
+}
+
+.price_button_plus {
+  background-color: var(--buttoncolor);
+  height: 38px;
+  width: 38px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.price_button_amount {
+  color: lightgray;
+}
+
+@media screen and (width <= 828px) {
+
+  .prices__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 /** [TODOLABO]: maak gebruik van nieuwe media query syntax */
@@ -80,5 +123,15 @@ body {
 
   .prices {
     height: 509px;
+  }
+
+  .layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .content {
+    grid-column: 2/3;
+    grid-row: 1/3;
   }
 }
