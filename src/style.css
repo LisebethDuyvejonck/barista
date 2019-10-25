@@ -25,12 +25,14 @@ body {
 .title_mini {
   font-size: var(--fontSizeSmall);
   text-transform: uppercase;
+  margin: var(--spacer);
 }
 
 .emptystate {
-  margin: 10rem;
+  margin: 7rem;
   display: flex;
   flex-flow: column;
+  text-align: center;
 }
 
 .remove {
@@ -39,6 +41,7 @@ body {
 
 .total {
   background-color: gainsboro;
+  padding: 2rem;
 }
 
 .visually-hidden {
@@ -46,9 +49,12 @@ body {
 }
 
 .content {
-  display: flex;
-  justify-content: center;
-  margin: var(--spacer);
+  display: grid;
+  grid-template-rows: 3rem 2fr 6rem;
+}
+
+.orders__wrapper {
+  grid-row: 3/4;
 }
 
 .footer {
