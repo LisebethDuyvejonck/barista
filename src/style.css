@@ -1,7 +1,6 @@
 @import './css/reset.css';
 @import './css/vars.css';
 @import './css/header.css';
-@import url(https://fonts.googleapis.com/css?family=Roboto&display=swap);
 
 html {
   box-sizing: border-box;
@@ -22,126 +21,9 @@ body {
   color: var(--textColor);
 }
 
-.title_mini {
-  font-size: var(--fontSizeSmall);
-  text-transform: uppercase;
-  margin: var(--spacer);
-}
-
-.emptystate {
-  margin: 7rem;
-  display: flex;
-  flex-flow: column;
-  text-align: center;
-}
-
-.remove {
-  background-color: var(--buttoncolor);
-}
-
-.total {
-  background-color: gainsboro;
-  padding: 2rem;
-}
-
-.visually-hidden {
-  display: none;
-}
-
-.content {
-  display: grid;
-  grid-template-rows: 3rem 2fr 6rem;
-}
-
-.orders__wrapper {
-  grid-row: 3/4;
-}
-
-.footer {
-  background-color: var(--anotherBackgroundColor1);
-  display: flex;
-  justify-content: space-around;
-  padding: 2rem;
-}
-
-.footer_text {
-  color: white;
-}
-
-.prices {
-  background-color: var(--anotherBackgroundColor);
-}
-
-.price_button {
-  display: flex;
-  justify-content: space-around;
-}
-
-.price_button_wrapper {
-  display: flex;
-  flex-flow: column;
-}
-
-.prices__list {
-  background-color: var(--anotherBackgroundColor);
-}
-
-.price__button {
-  display: flex;
-  padding: 1rem;
-}
-
-.price {
-  background-color: white;
-  width: 170px;
-  height: 63px;
-  margin: 2rem;
-  border-radius: 10px;
-  display: flex;
-}
-
-.price_button_plus {
-  background-color: var(--buttoncolor);
-  height: 38px;
-  width: 38px;
-  text-align: center;
-  border-radius: 10px;
-}
-
-.price_button_amount {
-  color: lightgray;
-}
-
-@media screen and (width <= 828px) {
-
-  .prices__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-/** [TODOLABO]: maak gebruik van nieuwe media query syntax */
 @media screen and (width >= 828px) {
 
-  main {
-    display: flex;
-  }
-
-  .prices {
-    height: 509px;
-  }
-
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .content {
-    grid-column: 2/3;
-    grid-row: 1/3;
-  }
-
-  .price__button {
-    width: 241px;
+  .mini__title {
+    background-color: white;
   }
 }

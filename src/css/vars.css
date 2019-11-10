@@ -1,14 +1,3 @@
 :root {
   --backgroundColor: white;
-  --anotherBackgroundColor: #f9d2cb;
-  --anotherBackgroundColor1: #212121;
-  --textColor: black;
-  --buttoncolor: #a3f4dc;
-  --margin: 2rem;
-  --fontSizeSmall: 1.2rem;
-  --fontSizeNormal: 1.8rem;
-  --fontSizeBig: 2.6rem;
-  --fontWeightBold: 500;
-  --spacer: 30px;
-
 }

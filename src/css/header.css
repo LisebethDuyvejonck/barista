@@ -7,17 +7,3 @@ header {
   position: relative;
   padding: var(--spacer);
 }
-
-.h1-like {
-  font-size: var(--fontSizeBig);
-  font-weight: var(--fontWeightBold);
-}
-
-.h2-like {
-  font-size: var(--fontSizeSmall);
-  text-transform: uppercase;
-}
-
-.titel__img {
-  display: flex;
-}
